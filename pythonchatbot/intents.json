@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [ "A.o.A","Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Walaikum Assalam","Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        }
+        ,
+        {"tag": "query",
+         "patterns": ["Who is Asim?"],
+         "responses": ["Asim is my developer "],
+         "context": [""]
+        } 
+        ,
+        {"tag": "query",
+         "patterns": ["How old is he?"],
+         "responses": ["Asim is my 24 years old "],
+         "context": [""]
+        } 
+        ,
+        {"tag": "query",
+         "patterns": ["Where is he from?"],
+         "responses": ["Asim is from Gujrat "],
+         "context": [""]
+        } 
+        ,
+        {"tag": "query",
+         "patterns": ["In which language he is working?"],
+         "responses": ["Asim is in python "],
+         "context": [""]
+        } 
+        ,
+        {"tag": "query",
+         "patterns": ["who are you?"],
+         "responses": [" I am Asim's Ai Model "],
+         "context": [""]
+        }
+    ]}
