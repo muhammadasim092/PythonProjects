@@ -65,3 +65,6 @@ score = tf.nn.softmax(predict)
 st.image(img , width=200)
 
 st.write('Veg/Fruit in image is {} with accuracy of {:.2f}%'.format(data_cat[np.argmax(score)], np.max(score) * 100))
+
+
+# python -m streamlit run "d:/Introduction to Programming with Python/PythonProjects/image_classification/app.py"
