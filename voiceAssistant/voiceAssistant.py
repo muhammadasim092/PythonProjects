@@ -8,15 +8,9 @@ import speech_recognition as sr
 import pyttsx3
 
 import webbrowser
-
-import openai
-
 import os
-
 import datetime
-
 from pyexpat import features
-
 
 def say(text):
     engine = pyttsx3.init()
