@@ -3,11 +3,10 @@ import pyttsx3
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import os
+import pyautogui
+import keyboard
 
-engine = pyttsx3.init("sapi5")
-voices = engine.getProperty("voices")
-engine.setProperty("voice", voices[0].id)
-rate = engine.setProperty("rate",170)
 
 
 def say(text):
@@ -31,6 +30,12 @@ def takeCommand():
     except Exception:
         say("Sorry, can you say again?")
         return ""
+    
+def alarm(query):
+    timehere = open("Alarmtext.txt","a")
+    timehere.write(query)
+    timehere.close()
+    os.startfile("alarm.py")
 
 if __name__ == "__main__": 
     while True:
@@ -59,6 +64,24 @@ if __name__ == "__main__":
                 elif "what is your name" in query:
                     say("My name is Asim's AI sir, I am your personal assistant.")
                 
+                elif "pause" in query:
+                    pyautogui.press("k")
+                    say("video paused")
+                elif "play" in query:
+                    pyautogui.press("k")
+                    say("video played")
+                elif "mute" in query:
+                    pyautogui.press("m")
+                    say("video muted")
+
+                elif "volume up" in query:
+                    from keyboard import volumeup
+                    say("Turning volume up,sir")
+                    volumeup()
+                elif "volume down" in query:
+                    from keyboard import volumedown
+                    say("Turning volume down, sir")
+                    volumedown()
                 
                 elif "open" in query:
                     from Dictapp import openappweb
@@ -79,8 +102,13 @@ if __name__ == "__main__":
                     searchWikipedia(query)
                     
                     
-                    
-                    
+                elif "set an alarm" in query:
+                    print("input time example:- 10 and 10 and 10")
+                    say ("Set the time")
+                    a = input("Please tell the time :- ")
+                    alarm(a)
+                    say("Done,sir")   
+                                    
                 elif "temperature" in query:
                     search = "temperature in Gujrat"
                     url = f"https://www.google.com/search?q={search}"
@@ -104,3 +132,14 @@ if __name__ == "__main__":
                 elif "Good Bye" in query:
                     say("Going to sleep,sir")
                     exit()
+                
+                elif "remember that" in query:
+                    rememberMessage = query.replace("remember that","")
+                    rememberMessage = query.replace("jarvis","")
+                    say("You told me to remember that"+rememberMessage)
+                    remember = open("Remember.txt","a")
+                    remember.write(rememberMessage)
+                    remember.close()
+                elif "what do you remember" in query:
+                    remember = open("Remember.txt","r")
+                    say("You told me " + remember.read()) 
