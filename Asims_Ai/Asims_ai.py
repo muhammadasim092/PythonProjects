@@ -1,4 +1,3 @@
-# main.py
 import speech_recognition as sr
 import pyttsx3
 import requests
@@ -61,6 +60,12 @@ if __name__ == "__main__":
                     say("My name is Asim's AI sir, I am your personal assistant.")
                 
                 
+                elif "open" in query:
+                    from Dictapp import openappweb
+                    openappweb(query)
+                elif "close" in query:
+                    from Dictapp import closeappweb
+                    closeappweb(query)
                 
                 
                 elif "google" in query:
