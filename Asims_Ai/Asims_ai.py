@@ -6,6 +6,7 @@ import datetime
 import os
 import pyautogui
 import keyboard
+import speedtest
 
 
 
@@ -79,7 +80,7 @@ if __name__ == "__main__":
                     say("Turning volume up,sir")
                     volumeup()
                 elif "volume down" in query:
-                    from keyboard import volumedown
+                    from keyboard  import volumedown
                     say("Turning volume down, sir")
                     volumedown()
                 
@@ -90,7 +91,34 @@ if __name__ == "__main__":
                     from Dictapp import closeappweb
                     closeappweb(query)
                 
+                elif "news" in query:
+                    from NewsRead import latestnews
+                    latestnews()
+                    
+                elif "shutdown the system" in query:
+                    say("Are You sure you want to shutdown")
+                    shutdown = input("Do you wish to shutdown your computer? (yes/no)")
+                    if shutdown == "yes":
+                        os.system("shutdown /s /t 1")
+
+                    elif shutdown == "no":
+                        break
+                elif "calculate" in query:
+                    from Calculatenumbers import WolfRamAlpha
+                    from Calculatenumbers import Calc
+                    query = query.replace("calculate","")
+                    query = query.replace("jarvis","")
+                    Calc(query)
                 
+                elif "internet speed" in query:
+                    wifi  = speedtest.Speedtest()
+                    upload_net = wifi.upload()/1048576         #Megabyte = 1024*1024 Bytes
+                    download_net = wifi.download()/1048576
+                    print("Wifi Upload Speed is", upload_net)
+                    print("Wifi download speed is ",download_net)
+                    say(f"Wifi download speed is {download_net}")
+                    say(f"Wifi Upload speed is {upload_net}")
+    
                 elif "google" in query:
                     from searchEngines import searchGoogle
                     searchGoogle(query)

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Explore opportunities at COMSATS University Islamabad! Learn about our diverse range of undergraduate and graduate programs. Find admission requirements, Your gateway to education, application deadlines, and how to apply for your desired academic journey.">
+    <meta name="keywords" content="COMSATS, CUI, Computer Science, Architecture, Engineering, CIIT, Promotin Quality Education, HEC, Higher Education, CS, Data Science, Design, Management Sciences, Artificial Intelligence, Networks, International Relations, Chemistry, Pharmacy, BioSciences, Top University, COMSATS University Islamabad, CUI Admissions, Undergraduate Programs, Graduate Programs, Admission Requirements, Application Process, Apply to COMSATS, Application Deadlines, Scholarships at CUI, Academic Excellence, Faculty and Research, Campus Life at COMSATS, International Students Admission, Engineering Admissions, Business Studies Admission, Computer Science Programs">
+
+    <title>login</title>
+    <link href="/Content/css?v=Bhu8QH4eClK8xCUMcnxZroPUtnN0IwSsLiw3Dv2CmgA1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <link href="/Content/adminlte?v=YdlDMRQmg0lUX7EGKi1SN3bpWnBLgyPiTuUKFb7Ec1g1" rel="stylesheet"/>
+
+
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/Content/images/newstyle/favicon.png">
+
+</head>
+<body>
+    <div id="loading">
+        <div class="loadingin"></div>
+    </div>
+    <header>
+        <div class="row clearfix header_bg">
+            <div class="container">
+
+                <div class="row clearfix top_admin_login">
+                    
+                </div>
+
+                <div class="row clearfix second_row">
+                    <div class="col-md-12 column">
+
+                        <div class="col-md-4 column logo">
+                            <a href="/home/index">
+                                <img src="/Content/images/comsats.png" title="COMSATS Admission System" />
+
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-4 column login_area top_form1">
+                            <img src="/Content/images/Admission.png" alt="" title="" />
+                            <!--<form action="" method="post">
+                            <input type="text" name="roll_no" id="roll_no" placeholder="Enter Roll Number" />
+                            <input type="submit" name="btn_submit" id="btn_submit" class="btn_submit" value="Check Merit Result" />
+                            </form>-->
+                        </div>
+
+
+
+                        <div class="col-md-4 column login_area top_form2">
+                            
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+                <span class="spacer10"></span>
+
+
+            </div>
+        </div>
+
+        <div class="row clearfix menu_bg">
+            <div class="container">
+                <div class="col-md-12 column">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav custom_ul">
+                                <li><a href="/Home/Index">Home</a></li>
+                                <li><a href="/Home/AboutComsats">Why CUI?</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Home/ProgramDetails#panel-undergrad">Under Graduation</a></li>
+                                        <li><a href="/Home/ProgramDetails#panel-grad">Graduation</a></li>
+                                        <li><a href="/Home/ProgramDetails#panel-phd">PHD</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="http://cuonline.comsats.edu.pk/publicaccess/" target="_blank">Scheme of Studies</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prospectus<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://ww2.comsats.edu.pk/ro/Undergraduate.aspx" target="_blank">UnderGraduate Programs</a></li>
+                                        <li><a href="http://ww2.comsats.edu.pk/ro/Graduate.aspx" target="_blank">Graduate Programs</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://ww2.comsats.edu.pk/scholarships/" target="_blank">Scholarships</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads / Notifications<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        
+                                        <li><a href="/Content/files/MS_admission_criteria.pdf" target="_blank">MS Admission Criteria</a></li>
+                                        <li><a href="/Content/files/PhD_admission_criteria.pdf" target="_blank">PhD Admission Criteria</a></li>
+                                        <li><a href="http://ww2.comsats.edu.pk/ro/Graduate.aspx" target="_blank">Graduate Admission Guideline</a></li>
+                                        <li><a href="http://ww2.comsats.edu.pk/ro/Undergraduate.aspx" target="_blank">Under Graduate Admission Guideline</a></li>
+                                        <li><a href="/Content/files/udertaking_speciman.doc" target="_blank">Specimen of Undertaking</a></li>
+                                        <li><a href="/Content/files/SpecimenofAffidavit.doc" target="_blank">Specimen of Hope Certificate for Under Graduate Students</a></li>
+                                        <li><a href="/Content/files/Notification No 2879 REVISED ELIGIBILITY CRITERIA FOR MS PHD PROGRAMS .pdf" target="_blank">Revised Criteria for MS/PhD Programs</a></li>
+										 <li><a href="/Content/files/Notification HEC National Fee Refund Policy Revised 2024.pdf" target="_blank">HEC National Fee Refund Policy 2024</a></li>
+										 <li><a href="/Content/files/Fee-Structure-Fall-2025.pdf" target="_blank">Fee Structure Fall 2025</a></li>
+                                    </ul>
+                                </li>
+                                <li><a  style="margin: 15px 5px 8px"  href="/Home/ContactUs">Contact Us</a></li>
+								 <li class="intl_stds"><a href="/Home/Keydates">Key Dates</a></li>
+								<!-- <li class="intl_stds"><a href="/Home/GetCandidateDetails">Merit Calculator</a></li> -->
+							
+                                <li class="intl_stds"><a href="http://international.admissions.comsats.edu.pk/" target="_blank">International Students</a></li>
+                                <li class="intl_stds"><a href="https://admissions.comsats.edu.pk:5069/" target="_blank">PhD scholarships</a></li>
+								<!-- <li class="intl_stds"><a href="https://admissions.comsats.edu.pk:8087/" target="_blank">PhD Fully Funded Admissions</a></li>
+									<li class="intl_stds"><a href="/Home/GetCandidateDetails">Key Dates</a></li> -->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div id="random_classes" class="row clearfix main_container_bg">
+        <span class="spacer40"></span>
+        <span class="dotted_overlay"></span>
+        <div class="container">
+            
+<div class="maincontent">
+    <h2>Login</h2>
+    <div class="panel panel-info">
+        <div class="panel-heading"><b>Login to your account</b></div>
+        <div class="panel-body">
+                <div class="alert alert-danger alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <p>Your session has expired. We apoligize for the inconvenience. Please sign-in again in the sytem.</p>
+                </div>
+
+            <div class="row">
+                <div class="col-sm-7">
+                    <p><b>Please use your login/password to sign in to our online admission system.</b></p>
+                    <br />
+                    <p>You can sign in using the 'Sign In' button given at the right side of your screen.</p>
+                </div>
+                <div class="col-sm-5">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Signin Here</div>
+                        <div class="panel-body">
+                            <div id="loginBox">
+                                <form data-bind="with: loginObj" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-3">Login / Email</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="login" name="login" class="form-control input-sm" placeholder="enter login / email" data-bind="value: Login" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3">Password</label>
+                                        <div class="col-sm-9">
+                                            <input type="password" id="password" name="password" class="form-control input-sm" placeholder="enter password" data-bind="value: Password" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-3 col-sm-9">
+                                            <button class="btn btn-primary" type="submit"  data-bind="click: $root.Login" >Sign In</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                        <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog" data-bind="with: loginResultVM">
+    <div class="modal-dialog modal-sm ">
+        <!-- Modal content-->
+        <div class="modal-content applycampuspopup">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"></button>
+                <h4 data-bind="ifnot: ErrorMsg">Welcome <span data-bind="text: Name"></span>!</h4>
+                <h4 data-bind="if: ErrorMsg">Error!</h4>
+            </div>
+            <div class="modal-body" data-bind="ifnot: ErrorMsg">
+                <h4>Choose Your Applied Campus</h4>
+                <div data-bind="foreach: LstAppliedCampuses">
+                    <div class="applybtncontainer">
+                        <input type="button" class="applybtnmain" data-bind="attr:{disabled: ApplicationStatus=='AdmissionClosed'}, click: function(data, event) { $root.applyInCampus(CampusID, ApplicationStatus) }, value: CampusTitle, css: {'formadmissionclosed':ApplicationStatus=='AdmissionClosed','formincomplete':ApplicationStatus=='InComplete', 'formsubmitted':ApplicationStatus=='Submitted', 'feeverified':ApplicationStatus=='FeeVerified', 'formverified':(ApplicationStatus=='Verified' || ApplicationStatus=='OnMerit' ||  ApplicationStatus=='NotOnMerit'), 'formrejected':ApplicationStatus=='ObjectionRaised'}" />
+                       
+                        <div class="txtComplete" data-bind="if: ApplicationStatus=='Submitted'">Application Complete</div>
+                        <div class="txtFeeVerified" data-bind="if: ApplicationStatus=='FeeVerified'">Fee Verified</div>
+                        <div class="txtVerified" data-bind="if: ApplicationStatus=='Verified'">Application Verified</div>
+                        <div class="txtOnMerit" data-bind="if: ApplicationStatus=='OnMerit'">Merit</div>
+                        <div class="txtNotOnMerit" data-bind="if: ApplicationStatus=='NotOnMerit'">Not On Merit</div>
+						 <div class="txtAdmissionClosed" data-bind="if: ApplicationStatus=='AdmissionClosed'">Admission Closed</div>
+                        <div class="txtObjectionRaised" data-bind="if: ApplicationStatus=='ObjectionRaised'">Object Raised</div>
+                    </div>
+                </div>
+
+                <div data-bind="if: LstNotAppliedCampuses && LstNotAppliedCampuses.length > 0">
+                    <h5>To apply in other campuses click below</h5>
+                    <div class="othercampuscontainer" data-bind="foreach: LstNotAppliedCampuses">
+                        <input type="button" class="othercampusbtn" value="Attock" data-bind="click: function(data, event) { $root.selectNewCampus(CampusID) }, value: CampusTitle" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body" data-bind="if: ErrorMsg">
+                <h5 style="color:red;" data-bind="text: ErrorMsg"></h5>
+            </div>
+        </div>
+
+    </div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="row clearfix footer_bg">
+            <div class="container">
+                <div class="col-md-2 column footer_logo">
+                    <a href="/home/index"><img src="/content/images/LogoBottom.png" title="COMSATS Admission System" /></a>
+                </div>
+
+                <div class="col-md-10 column">
+
+                    <div class="col-md-3 column footer_boxes explore">
+                        <h3>Explore</h3>
+                        
+                        <a href="/Content/images/admission_advertisement.jpeg" target="_blank">Admissions Advertisement</a>
+						<!-- <a href="/Content/images/IRCBM.JPEG" target="_blank">IRCBM Scholarships</a> -->
+                        <a href="https://ww2.comsats.edu.pk/scholarships/" target="_blank">Scholarships</a>
+                        <a href="/Home/FacultiesDepartments">Faculties &amp; Departments</a>
+                        <a href="/Home/GraduatesOutput">Graduates</a>
+                        <a href="http://ww2.comsats.edu.pk/internationalstudents/" target="_blank">International Admissions</a>
+                    </div>
+
+                    <div class="col-md-3 column footer_boxes address">
+                        <h3>Address</h3>
+                        <p>
+                            Park Road, Tarlai Kalan <br />
+                            Islamabad 45550, PAKISTAN.
+                        </p>
+                    </div>
+
+                    
+
+                    <div class="col-md-3 column footer_boxes social">
+                        <h3>Join</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/cuiofficial/" target="_blank"><img src="/content/images/newstyle/fb.png" /></a></li>
+                            <li><a href="https://twitter.com/cuiofficial" target="_blank"><img src="/content/images/newstyle/tw.png" /></a></li>
+                            <li><a href="https://www.instagram.com/cuinews" target="_blank"><img src="/content/images/newstyle/insta.png" /></a></li>
+                            <li><a href="https://www.youtube.com/@cuiofficial" target="_blank"><img src="/content/images/newstyle/youtube.png" /></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="copyrights">
+                <div class="copyrights_container">
+                    <span class="copy_span">Copyright &copy; 2022, All Rights Reserved</span>
+                    <span class="dev_by">Developed by <a href="#">Cu-Online</a></span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="/bundles/jquery?v=7J-BVZfjOtVmgsij9oGTppovhlfVh535nCbwXaZyt_s1"></script>
+
+    <script src="/bundles/jqueryui?v=zmGjYUgpSsR_O-JS8swLbqBTxZ50vscjN8N9nbJB8ck1"></script>
+
+    <script src="/bundles/knockout?v=JOEBRecOx57xjzOj_eXmIRL3YPU7PAElLqp8GiNK40c1"></script>
+
+    <script src="/bundles/bootstrap?v=UXHfLrRNaVak8HRUD4FuC4OL2YJwDimt8dxjhSg-7ko1"></script>
+
+    <script src="/bundles/utiljs?v=s6xRoc8GVcdOgtbdgeW09r086DqZS6W5mpnW9U0HYyU1"></script>
+
+    
+    <script type="text/javascript" src="/Scripts/Register/loginvm.js"></script>
+    <script type="text/javascript">
+        InitLoginVM();
+
+    </script>
+
+
+</body>
+</html>
